@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import '../styles/blog.css';
+import img1 from '../pages/api/sarahMiller.jpg';
+import img2 from '../pages/api/michaelJohnson.jpg';
+import img3 from '../pages/api/jessicaWong.jpg';
+import img4 from '../pages/api/davidChen.jpg';
+import img5 from '../pages/api/emilyRoberts.jpg';
+import img6 from '../pages/api/ryanPeters.jpg';
 
 const Blog = () => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -10,7 +16,7 @@ const Blog = () => {
       id: 1,
       title: "The Importance of Protein in Your Diet",
       excerpt: "Learn why protein is crucial for muscle building, weight management, and overall health.",
-      imageUrl: "/api/placeholder/400/250",
+      imageUrl: img1,
       date: "February 25, 2025",
       author: "Dr. Sarah Miller",
       category: "Nutrition Basics",
@@ -20,7 +26,7 @@ const Blog = () => {
       id: 2,
       title: "Understanding Carbohydrates: Friend or Foe?",
       excerpt: "Debunking myths about carbs and learning how to incorporate them properly in your diet.",
-      imageUrl: "/api/placeholder/400/250",
+      imageUrl: img2,
       date: "February 20, 2025",
       author: "Michael Johnson, RD",
       category: "Nutrition Myths",
@@ -30,7 +36,7 @@ const Blog = () => {
       id: 3,
       title: "Healthy Eating on a Budget",
       excerpt: "Practical tips for maintaining a nutritious diet without breaking the bank.",
-      imageUrl: "/api/placeholder/400/250",
+      imageUrl: img3,
       date: "February 15, 2025",
       author: "Jessica Wong, RD",
       category: "Practical Nutrition",
@@ -40,7 +46,7 @@ const Blog = () => {
       id: 4,
       title: "Meal Prep 101: Save Time and Eat Better",
       excerpt: "A beginner's guide to effective meal planning and preparation for a healthier lifestyle.",
-      imageUrl: "/api/placeholder/400/250",
+      imageUrl: img4,
       date: "February 10, 2025",
       author: "David Chen, RD",
       category: "Healthy Habits",
@@ -50,7 +56,7 @@ const Blog = () => {
       id: 5,
       title: "The Truth About Fad Diets",
       excerpt: "An evidence-based analysis of popular diet trends and their impact on health.",
-      imageUrl: "/api/placeholder/400/250",
+      imageUrl: img5,
       date: "February 5, 2025",
       author: "Dr. Emily Roberts",
       category: "Diet Trends",
@@ -60,7 +66,7 @@ const Blog = () => {
       id: 6,
       title: "Nutrition for Active Lifestyles",
       excerpt: "How to fuel your body properly for optimal performance during exercise.",
-      imageUrl: "/api/placeholder/400/250",
+      imageUrl: img6,
       date: "January 30, 2025",
       author: "Ryan Peters, Sports Nutritionist",
       category: "Sports Nutrition",
@@ -105,7 +111,7 @@ const Blog = () => {
         <div className="blog-content">
           <div className="featured-post">
             <div className="featured-image">
-              <img src="/api/placeholder/800/400" alt="Featured Post" />
+              <img src={img4} alt="Featured Post" />
               <div className="featured-overlay">
                 <span className="post-category featured">Featured</span>
                 <span className="post-read-time">10 min read</span>
@@ -203,21 +209,21 @@ const Blog = () => {
           <div className="sidebar-section recent-posts">
             <h3>Recent Posts</h3>
             <div className="recent-post">
-              <img src="/api/placeholder/80/80" alt="Recent Post" />
+              <img src={img1} alt="Recent Post" />
               <div>
                 <h4>Seasonal Eating: Spring Edition</h4>
                 <p>February 22, 2025</p>
               </div>
             </div>
             <div className="recent-post">
-              <img src="/api/placeholder/80/80" alt="Recent Post" />
+              <img src={img2} alt="Recent Post" />
               <div>
                 <h4>The Role of Vitamins in Immunity</h4>
                 <p>February 18, 2025</p>
               </div>
             </div>
             <div className="recent-post">
-              <img src="/api/placeholder/80/80" alt="Recent Post" />
+              <img src={img3} alt="Recent Post" />
               <div>
                 <h4>Understanding Food Labels</h4>
                 <p>February 12, 2025</p>
@@ -233,10 +239,10 @@ const Blog = () => {
               <button type="submit">Subscribe</button>
             </form>
             <div className="social-icons">
-              <a href="#" title="Facebook">📘</a>
-              <a href="#" title="Twitter">🐦</a>
-              <a href="#" title="Instagram">📷</a>
-              <a href="#" title="Pinterest">📌</a>
+              <a href="https://www.facebook.com/" title="Facebook">📘</a>
+              <a href="https://x.com/?lang=en" title="Twitter">🐦</a>
+              <a href="https://www.instagram.com/" title="Instagram">📷</a>
+              <a href="https://www.pinterest.com/" title="Pinterest">📌</a>
             </div>
           </div>
           

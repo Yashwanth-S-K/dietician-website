@@ -1,6 +1,12 @@
 // src/pages/Dieticians.js
 import React, { useState } from 'react';
 import '../styles/dieticians.css';
+import img1 from '../pages/api/emilyWatson.jpg';
+import img2 from '../pages/api/michaelRodriguez.jpg';
+import img3 from '../pages/api/sarahChen.jpg';
+import img4 from '../pages/api/jamesWilson.jpg';
+import img5 from '../pages/api/lisaJohnson.jpg';
+import img6 from '../pages/api/robertKim.jpg';
 
 const Dieticians = () => {
   // Sample dieticians data
@@ -10,7 +16,7 @@ const Dieticians = () => {
       name: "Dr. Emily Watson",
       specialty: "Weight Management",
       description: "Specializing in sustainable weight loss strategies and metabolic health.",
-      image: "/api/placeholder/300/300",
+      image: img1,
       experience: "12 years",
       education: "Ph.D. in Nutrition Science, Stanford University",
       certifications: ["Registered Dietitian", "Certified Diabetes Educator"],
@@ -21,7 +27,7 @@ const Dieticians = () => {
       name: "Michael Rodriguez, RD",
       specialty: "Sports Nutrition",
       description: "Helping athletes optimize performance through precise nutritional planning.",
-      image: "/api/placeholder/300/300",
+      image: img2,
       experience: "8 years",
       education: "M.S. in Sports Nutrition, University of Florida",
       certifications: ["Registered Dietitian", "Certified Sports Nutritionist"],
@@ -32,7 +38,7 @@ const Dieticians = () => {
       name: "Dr. Sarah Chen",
       specialty: "Digestive Health",
       description: "Expert in managing IBS, GERD, and other digestive disorders through diet.",
-      image: "/api/placeholder/300/300",
+      image: img3,
       experience: "15 years",
       education: "M.D. in Gastroenterology, Johns Hopkins University",
       certifications: ["Registered Dietitian", "Board Certified in Gastroenterology"],
@@ -43,7 +49,7 @@ const Dieticians = () => {
       name: "James Wilson, RD",
       specialty: "Plant-Based Nutrition",
       description: "Specializing in vegetarian and vegan diets for optimal health.",
-      image: "/api/placeholder/300/300",
+      image: img4,
       experience: "7 years",
       education: "B.S. in Nutritional Sciences, Cornell University",
       certifications: ["Registered Dietitian", "Plant-Based Nutrition Certificate"],
@@ -54,7 +60,7 @@ const Dieticians = () => {
       name: "Lisa Johnson, RD",
       specialty: "Pediatric Nutrition",
       description: "Helping children develop healthy eating habits from an early age.",
-      image: "/api/placeholder/300/300",
+      image: img5,
       experience: "10 years",
       education: "M.S. in Pediatric Nutrition, Boston University",
       certifications: ["Registered Dietitian", "Certified Pediatric Nutrition Specialist"],
@@ -65,7 +71,7 @@ const Dieticians = () => {
       name: "Robert Kim, RD",
       specialty: "Diabetes Management",
       description: "Expert in nutrition for diabetes prevention and blood sugar management.",
-      image: "/api/placeholder/300/300",
+      image: img6,
       experience: "9 years",
       education: "M.S. in Clinical Nutrition, NYU",
       certifications: ["Registered Dietitian", "Certified Diabetes Educator"],

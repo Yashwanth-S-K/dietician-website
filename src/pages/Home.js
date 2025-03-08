@@ -2,6 +2,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/home.css';
+import img1 from '../pages/api/personalisedPlans.png';
+import img2 from '../pages/api/expertDieticians.jpg';
+import img3 from '../pages/api/continuousSupport.jpg';
+import img4 from '../pages/api/about.jpg';
+import img5 from '../pages/api/sarahJohnson.jpg';
+import img6 from '../pages/api/michaelRodriguez.jpg';
 
 const Home = () => {
   return (
@@ -21,21 +27,21 @@ const Home = () => {
         <div className="feature-cards">
           <div className="feature-card">
             <div className="icon">
-              <img src="/api/placeholder/64/64" alt="Personalized Plans" />
+              <img src={img1} alt="Personalized Plans" />
             </div>
             <h3>Personalized Nutrition</h3>
             <p>Customized plans tailored to your specific health needs and goals.</p>
           </div>
           <div className="feature-card">
             <div className="icon">
-              <img src="/api/placeholder/64/64" alt="Expert Dieticians" />
+              <img src={img2} alt="Expert Dieticians" />
             </div>
             <h3>Expert Dieticians</h3>
             <p>Work with certified professionals who are passionate about your success.</p>
           </div>
           <div className="feature-card">
             <div className="icon">
-              <img src="/api/placeholder/64/64" alt="Continuous Support" />
+              <img src={img3} alt="Continuous Support" />
             </div>
             <h3>Continuous Support</h3>
             <p>Regular check-ins and adjustments to keep you on track.</p>
@@ -53,7 +59,7 @@ const Home = () => {
             <Link to="/dieticians" className="about-button">Meet Our Team</Link>
           </div>
           <div className="about-image">
-            <img src="/api/placeholder/500/300" alt="About NutriLife" />
+            <img src={img4} alt="About NutriLife" />
           </div>
         </div>
       </section>
@@ -64,7 +70,7 @@ const Home = () => {
         <div className="testimonial-slider">
           <div className="testimonial">
             <div className="testimonial-image">
-              <img src="/api/placeholder/100/100" alt="Client" />
+              <img src={img5} alt="Client" />
             </div>
             <div className="testimonial-content">
               <p>"Working with my NutriLife dietician changed my life. I've lost 30 pounds and have more energy than ever!"</p>
@@ -73,7 +79,7 @@ const Home = () => {
           </div>
           <div className="testimonial">
             <div className="testimonial-image">
-              <img src="/api/placeholder/100/100" alt="Client" />
+              <img src={img6} alt="Client" />
             </div>
             <div className="testimonial-content">
               <p>"As an athlete, nutrition is crucial. My NutriLife plan improved my performance and recovery significantly."</p>

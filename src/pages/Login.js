@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/auth.css';
-
+import img1 from '../pages/api/healthyEating.jpg';
 const Login = () => {
   const [formData, setFormData] = useState({
     email: '',
@@ -93,7 +93,7 @@ const Login = () => {
         </div>
         
         <div className="auth-image">
-          <img src="/api/placeholder/600/800" alt="Healthy eating" />
+          <img src={img1} alt="Healthy eating" />
           <div className="auth-image-overlay">
             <h2>Your Journey to Better Health</h2>
             <p>Get personalized nutrition plans from certified dieticians</p>
