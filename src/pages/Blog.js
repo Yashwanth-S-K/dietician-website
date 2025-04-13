@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import '../styles/blog.css';
-import img1 from '../pages/api/sarahMiller.jpg';
-import img2 from '../pages/api/michaelJohnson.jpg';
-import img3 from '../pages/api/jessicaWong.jpg';
-import img4 from '../pages/api/davidChen.jpg';
-import img5 from '../pages/api/emilyRoberts.jpg';
-import img6 from '../pages/api/ryanPeters.jpg';
+import img1 from '../pages/api/protein.jpg';
+import img2 from '../pages/api/carbs.jpg';
+import img3 from '../pages/api/budget.jpeg';
+import img4 from '../pages/api/gutHealth.jpg';
+import img5 from '../pages/api/mealPrep.jpg';
+import img6 from '../pages/api/activeLifestyle.jpg';
 
 const Blog = () => {
   const [activeCategory, setActiveCategory] = useState('All');

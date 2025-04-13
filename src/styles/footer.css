@@ -20,18 +20,21 @@
   }
   
   .footer-section h2 {
-    color: #2ecc71;
+    color: #12a34e;
     margin-bottom: 1rem;
   }
   
   .about p {
     margin-bottom: 1rem;
     line-height: 1.5;
+    color: #2ecc71;
+
   }
   
   .contact span {
     display: block;
     margin-bottom: 0.5rem;
+    color: #2ecc71;
   }
   
   .socials {
